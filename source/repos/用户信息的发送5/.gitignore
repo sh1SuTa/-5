@@ -1,0 +1,30 @@
+﻿# Visual Studio files
+.vs/
+*.vcxproj.user
+
+# 忽略 Windows 系统文件
+*.sdf
+*.suo
+*.ipch
+*.obj
+*.pch
+*.db
+*.opendb
+*.tlog
+*.lastbuildstate
+*.log
+desktop.ini
+
+# Build output
+x64/
+Debug/
+Release/
+
+# 忽略 Visual Studio 构建输出文件夹
+bin/
+obj/
+
+# 忽略 NuGet 包和临时文件
+packages/
+node_modules/
+
